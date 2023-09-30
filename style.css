@@ -1,0 +1,186 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: rgb(235, 41, 176);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width img{
+   height: 420px;
+   margin-left: 10%;
+}
+.button{
+    background-color: rgb(235, 41, 176);
+   padding: 10px 30px ;
+   color: white;
+   text-decoration: none;
+   border-radius: 3px;
+   font-weight: 700;
+   transition: 0.3s ease-in-out;
+}
+.button:hover{
+    background-color: rgb(247, 48, 124);
+}
+.top-banner{
+    background-image: url("./Images/top-banner.png");
+    
+}
+section{
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px; /* Further adjusted font size for smaller screens */
+    }
+
+    .button {
+        font-weight: 500; /* Further adjusted font weight for smaller screens */
+    }
+
+    .top-banner {
+        height: 200px; /* Further adjusted height for smaller screens */
+    }
+    .half-width{
+        display: block;
+        width: 100%;
+    }
+
+    section {
+        height: auto; /* Remove fixed height on smaller screens */
+    }
+    
+
+}
+    .second-half{
+        width: 50%;
+        float: left;
+    }
+        .anchor{
+        background-color:  rgb(235, 41, 176);
+        padding: 5px 10px ;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+        font-weight: 700;
+        transition: 0.3s ease-in-out;
+    }
+    .second-half img{
+        height: 500px;
+    }
+    .anchor:hover{
+        background-color:rgb(247, 48, 124) ;
+
+    }
+    
+    .exp{
+        text-align: center;
+    }
+    .middle-half{
+        background-image: url("./Images/dream-bg.png");
+        background-position: right;
+    }
+    .desc{
+        width: 95%;
+        display: flex;
+        background-image: url("./Images/exp-bg.png");
+        background-repeat: no-repeat;
+        background-size: 70px;
+        
+    }
+    .web{
+        margin-left: 70px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 30px;
+        padding-bottom: 90px;
+        border-radius: 5px;
+        border-left: 5px solid rgb(247, 48, 124) ;
+        
+        
+    }
+    .baby{
+        margin-left: 70px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 30px;
+        padding-bottom: 90px;
+        border-radius: 5px;
+        border-left: 5px solid  rgb(235, 41, 176) ;
+    }
+    .baby h4{
+        color:  rgb(235, 41, 176);
+    }
+    .web h4{
+        color:   rgb(247, 48, 124);
+    }
+    .web p{
+        font-size: 14px;
+    }
+    .baby p{
+        font-size: 14px;
+    }
+    .copyright{
+        text-align: center;
+        color: lightgray;
+    }
+
+
+    /* Add this at the end of your existing CSS */
+
+@media screen and (max-width: 767px) {
+    .second-half, .desc, .web, .baby {
+        width: 100%;
+        margin-left: 0;
+        float: none;
+        box-shadow: none;
+        border-left: none;
+        padding: 15px;
+    }
+    
+    .second-half img {
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .middle-half {
+        background-position: center;
+    }
+    
+    .desc{
+        display: block;
+    }
+    .exp{
+        text-align: center;
+    }
+    .middle-half{
+        width: 100%;
+        background-position: right;
+    }
+    .web{
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 30px;
+        border-left: 5px solid rgb(247, 48, 124) ;
+    }
+    .baby{
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 30px;
+        border-left: 5px solid rgb(235, 41, 176)  ;
+    }
+    
+    .web, .baby {
+        margin-bottom: 20px;
+    }
+}
